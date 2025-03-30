@@ -1,4 +1,4 @@
-// src/components/FormComponent.js
+
 import React from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
@@ -24,10 +24,6 @@ const FormComponent = () => {
           <Form className="form">
             <label htmlFor="name" className="Arun">Name:</label>
             <Field type="text" name="name" className="input-field" />
-
-
-            
-
             <button type="submit" disabled={isSubmitting} className="submit-button">
               Submit
             </button>
